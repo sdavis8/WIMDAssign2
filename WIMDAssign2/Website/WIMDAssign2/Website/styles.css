@@ -1,97 +1,83 @@
-body {
 
-    
-    font-family:'Space Mono','Roboto Mono';
+body{
+
+    background: linear-gradient(113.49deg, #984D38 -30.3%, #181E41 58.12%) no-repeat;
+    font-family:'Space Mono';
     color: #fff;
+   
 }
 
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+    max-width: 1197px;
+    margin: 0 auto;
+   
+    
+}
+
+
+
+
+
 * {
+    /* padding and border are included in the width and height/ */
+    box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-p {
-    margin-bottom: 10px;
-}
+
+
 
 .container > div {
-    padding: 30px;
+    padding: 20px;
 }
 
 .header {
-    /*https://webgradients.com/\*/	
-    background-image: linear-gradient(to top, #23063f 0%, #430a88 100%);
-    
-    
-}
-
- 
-
-
-
- button{
-    background-color: #430a88;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    border: 1px solid #266DB6;
-    box-sizing: border-box;
-    border-radius: 5px;
-    font-size: 16px;
-    font-weight: 600;
-    cursor: pointer;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-    transition-duration: 0.4s;
-    border: 2px solid #fff;
-    }
-    button:hover{
-    background-color: #fff;
-    color: #430a88;
-    border: 2px solid #430a88;
-    }
-    button:active{
-    background-color: #fff;
-    color: #430a88;
-    border: 2px solid #430a88;
-    }
-  
- 
-
-.nav {
-   background-color: #23063f;
     
    
+    
+    
+    
 }
 
 .leftCol {
     
-    background-color: #23063f;
+    
     
 }
 
+
+
 .rightCol {
-    background-color: #23063f;
+   
     
 }
    
 
 .services {
-    background-color: #23063f;
+   
         
     }
 
 
+
 .footer {
    
-    background-color: #23063f;
+    
   
 }
 
 @media screen and (min-width:360px) {
-    .header {
-        background-color: rgb(248, 242, 242);
+    .body {
+        
+        font-size: 1em; 
+        /*https://webgradients.com/\*/	
+        background: linear-gradient(113.49deg, #984D38 -30.3%, #181E41 58.12%) no-repeat;
     }
+  
 }
+
+
